@@ -1,0 +1,73 @@
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  font-family: "Coiny", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 16px 8px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: inherit;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+}
+.btn:hover {
+  text-decoration: none;
+  transform: scale(110%) rotate(-2deg);
+}
+.btn:disabled {
+  /* opacity: 0.6;  */
+  cursor: not-allowed; /* Exemplu: Schimbă cursorul la "not-allowed" */
+}
+.form-fact {
+  /* background-color: #78716c; Schimbați culoarea după preferință */
+  padding: 3px; /* Adăugați un padding pentru a crea spațiu în jurul formularului */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.form-fact input {
+  background-color: #c0cccc; /* Culoarea de fundal pentru input */
+  border: 1px solid #ccc; /* Adăugați un chenar subțire în jurul inputului */
+  padding: 10px; /* Adăugați un padding pentru spațiu în interiorul inputului */
+  min-width: 300px;
+}
+.fact-form input::placeholder {
+  color: #a8a29e;
+}
+body {
+  background-color: #292524;
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
+  padding: 48px 64px;
+  height: 100vh;
+}
+ul {
+  list-style: none;
+}
